@@ -3,10 +3,12 @@ package com.mehmetberkan.stream.objectexamples;
 public class Person {
     String name;
     int age;
+    String nationality;
 
-    public Person(String name, int age) {
+    public Person(String name, int age, String nationality) {
         this.name = name;
         this.age = age;
+        this.nationality = nationality;
     }
 
     public String getName() {
@@ -23,5 +25,13 @@ public class Person {
 
     public void setAge(int age) {
         this.age = age;
+    }
+
+    public String getNationality() {
+        return nationality;
+    }
+
+    public void setNationality(String nationality) {
+        this.nationality = nationality;
     }
 }

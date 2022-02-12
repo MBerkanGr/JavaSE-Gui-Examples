@@ -6,7 +6,8 @@ import java.util.List;
 
 public class MaxAndComparator {
     public static void main(String[] args) {
-        List people = Arrays.asList(new Person("Mehmet",56), new Person("Berkan",22));
+        List people = Arrays.asList(new Person("Mehmet",56,"TR")
+                                   ,new Person("Berkan",22,"FR"));
 
         System.out.println(getOlderPerson(people).getName());
     }
